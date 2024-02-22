@@ -37,6 +37,7 @@
           crossDomain: true,
           data:  dataJSON,
           success: function(returnData) {
+            console.log(returnData);
             const obj = JSON.parse(returnData);
             // setLocalStorage("jwt", obj.token);
           },
