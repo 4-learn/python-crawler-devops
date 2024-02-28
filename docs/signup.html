@@ -39,7 +39,7 @@
           success: function(returnData) {
             console.log(returnData);
             const obj = JSON.parse(returnData);
-            // setLocalStorage("jwt", obj.token);
+            alert(returnData);
           },
           error: function(xhr, ajaxOptions, thrownError){
             console.log(thrownError);

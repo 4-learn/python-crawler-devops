@@ -28,6 +28,7 @@
           success: function(returnData) {
             const obj = JSON.parse(returnData);
             console.log("Get JWT from cookie " + obj.token);
+	    alert(obj.token);
           },
           error: function(xhr, ajaxOptions, thrownError){
             
